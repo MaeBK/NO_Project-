@@ -1,0 +1,145 @@
+/* Page Format */
+*{
+  margin: 0;
+  padding: 0;
+}
+/*Home*/
+.hero-image {
+  background-image: url("images/new-orleans-travel-tips-cover.jpg");
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+.hero-text {
+  text-align: center;
+  color: white;
+  padding: 100px;
+  text-shadow: 5px 5px 10px #000000;
+}
+body {
+  background-color: #cccccc;
+  text-align: center;
+}
+.NO_Info{
+  column-count: 3;
+  column-gap:10px;
+  column-rule-style: solid;
+}
+/*Navagation Bar*/
+.btn {
+  border: 2px solid black;
+  background-color: #cccccc;
+  color: black;
+  padding: 5px 7px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin: 10px;
+}
+.a {
+  color: white;
+  text-decoration: none;
+  
+}
+.home {
+  border-color: #1e0f3d;
+  color: #1e0f3d;
+}
+.home:hover {
+  background-color: #1e0f3d;
+  color: black;
+}
+.contact {
+  border-color: #1e0f3d;
+  color: #1e0f3d;
+}
+.contact:hover {
+  background-color: #1e0f3d;
+  color: black;
+}
+.todo {
+  border-color: #1e0f3d;
+  color: #1e0f3d;
+}
+.todo:hover {
+  background-color: #1e0f3d;
+  color: black;
+}
+nav{
+  background-color: #7f7f7f;
+  padding: 5px;
+  text-align: center;
+}
+/*Contact Form moved to contact.css*/
+/* .column-slides {
+  float: left;
+  width: 20%;
+  padding: 0px;
+  min-height: 20%;
+  opacity:1;
+}
+.row-slides::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+input[type=text], select, textarea {
+  width: 100%; 
+  padding: 12px; 
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical 
+}
+input[type=submit] {
+  background-color: #8e6bc3;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+input[type=submit]:hover {
+  background-color: #8059bb;
+}
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  margin: 50px;
+  min-height: 100%;
+} */
+/* Footer */
+footer {
+  background-color: #2a2a2a;
+  color: white;
+  text-align: center; 
+  width: 100%;
+  position: absolute; 
+  bottom: 0;
+  padding: 10px;
+}
+/* To-Do page */
+.column-images {
+  float: left;
+  width: 32%;
+  padding: 5px;
+}
+.row-images::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.column-text {
+  float: left;
+  width: 32%;
+  padding: 5px;
+  
+}
+.row-text::after {
+  content: "";
+  clear: both;
+  display: table;
+}
